@@ -1,10 +1,10 @@
 # <img src="https://emojis.slackmojis.com/emojis/images/1680554188/65018/cat-roomba-exceptionally-fast.gif?1680554188" width="30"/> Olá! Eu sou o Luan <img src="https://media.tenor.com/J6xeNjc2CfMAAAAi/duck-dancing-transparent-duck.gif" width="60"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=false&vCenter=true&random=false&width=435&lines=Backend+Developer;JavaScript+Specialist;Java+Enthusiast;Problem+Solver)](https://github.com/)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=false&vCenter=true&random=false&width=435&lines=Fullstack+Developer;Backend+Specialist;Frontend+Explorer;Solution+Architect)](https://github.com/)
 
 <p align="left">
- 👨‍💻 Desenvolvedor backend apaixonado por construir soluções escaláveis e atualmente expandindo minhas habilidades em Java!
- <img align="right" src="https://emojis.slackmojis.com/emojis/images/1646623172/55302/java_time.gif?1646623172" width="50"/>
+ 👨‍💻 Desenvolvedor fullstack apaixonado por construir soluções completas e escaláveis - do backend ao frontend!
+ <img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="90"/>
 </p>
 
 <img align="right" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" width="320"/>
@@ -18,11 +18,11 @@
   <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></a>
   <a href="#"><img alt="Node.js" src="https://img.shields.io/badge/-Nodejs-43853d?style=for-the-badge&logo=Node.js&logoColor=white"></a>
   <a href="#"><img alt="Express.js" src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white"></a>
+  <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
+  <a href="#"><img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"></a>
   <a href="#"><img alt="React Native" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
-  <a href="#"><img alt="Java" src="https://custom-icon-badges.demolab.com/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"></a>
   <a href="#"><img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white"></a>
   <a href="#"><img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=white"></a>
-  <a href="#"><img alt="GitHub Actions" src="https://img.shields.io/badge/-Github_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"></a>
 </p>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Bancos de Dados & Infraestrutura
@@ -51,19 +51,21 @@
 
 ```typescript
 const luan = {
-  code: ["JavaScript", "TypeScript", "Java", "SQL", "HTML", "CSS"],
+  code: ["JavaScript", "TypeScript", "SQL", "HTML", "CSS"],
   technologies: {
-    backend: {
-      js: ["Node.js", "Express", "NestJS", "Fastify"],
-      java: ["Spring Boot", "JPA/Hibernate"]
+    frontend: {
+      js: ["React.js", "Next.js", "TailwindCSS", "Styled-Components"],
+      mobile: ["React Native"]
     },
-    mobile: ["React Native"],
+    backend: {
+      js: ["Node.js", "Express", "NestJS", "Fastify"]
+    },
     databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "ElasticSearch"],
     devOps: ["AWS", "Docker", "Nginx", "CI/CD", "GitHub Actions"],
     tools: ["Postman", "Insomnia", "Git", "Jira", "Figma"]
   },
-  architecture: ["Microservices", "Event-Driven", "RESTful APIs", "MVC", "DDD"],
-  currentFocus: "Aprofundando em Java e arquitetura de microsserviços",
+  architecture: ["Microservices", "Event-Driven", "RESTful APIs", "MVC", "JAMstack"],
+  currentFocus: "Aperfeiçoando minhas habilidades fullstack com Next.js e React Native",
   funFact: "Código é como poesia – quanto mais simples, mais bonito"
 };
 ```
@@ -73,20 +75,20 @@ const luan = {
 <table>
   <tr>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" />
-      <br>Java Avançado
+      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
+      <br>React Avançado
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />
-      <br>Arquitetura Cloud
+      <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="65" height="65" />
+      <br>Next.js
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" />
-      <br>Kubernetes
+      <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" width="65" height="65" />
+      <br>TailwindCSS
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=spring" alt="Spring" width="65" height="65" />
-      <br>Spring Boot
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="React Native" width="65" height="65" />
+      <br>React Native
     </td>
   </tr>
 </table>
@@ -109,7 +111,7 @@ const luan = {
     Acredito que a programação é onde a lógica encontra a criatividade. Cada linha de código é uma oportunidade para resolver problemas do mundo real e criar algo significativo. Sou apaixonado por escrever código limpo, bem documentado e escalável que facilite a manutenção a longo prazo.
   </p>
   <p>
-    Atualmente focado em arquitetura backend e desenvolvimento de APIs, mas sempre explorando novas tecnologias para expandir meu toolkit. Adoro enfrentar desafios técnicos complexos e encontrar soluções elegantes para problemas difíceis.
+    Como desenvolvedor fullstack, valorizo a capacidade de trabalhar em todo o ciclo de desenvolvimento - desde a estruturação de APIs e bancos de dados até a criação de interfaces de usuário intuitivas e responsivas. Adoro enfrentar desafios técnicos complexos e encontrar soluções elegantes que unam o melhor dos mundos backend e frontend.
   </p>
 </details>
 
@@ -129,10 +131,12 @@ const luan = {
   <summary><b>🏆 Conquistas Recentes</b></summary>
   <br>
   <p>
-    ✅ Desenvolvimento de uma API de processamento de pagamentos altamente escalável<br>
+    ✅ Desenvolvimento de aplicações fullstack usando Next.js, Node.js e MongoDB<br>
+    ✅ Criação de interfaces responsivas e acessíveis com React e TailwindCSS<br>
     ✅ Implementação de uma arquitetura de microsserviços usando Node.js e Docker<br>
-    ✅ Otimização de performance em um sistema de backend com volume de 10k+ requisições/minuto<br>
-    ✅ Contribuição para projetos open-source na comunidade JavaScript
+    ✅ Desenvolvimento de aplicativo mobile cross-platform com React Native<br>
+    ✅ Otimização de performance em sistemas de backend com alto volume de requisições<br>
+    ✅ Contribuição para projetos open-source nas comunidades JavaScript e React
   </p>
 </details>
 
