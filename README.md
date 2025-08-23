@@ -3,7 +3,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=false&vCenter=true&random=false&width=435&lines=Fullstack+Developer;Backend+Specialist;Frontend+Explorer;Solution+Architect)](https://github.com/)
 
 <p align="left">
- 👨‍💻 Desenvolvedor fullstack apaixonado por construir soluções completas e escaláveis - do backend ao frontend!
+ 👨‍💻 Desenvolvedor backend apaixonado
  <img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="90"/>
 </p>
 
