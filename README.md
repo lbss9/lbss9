@@ -1,6 +1,6 @@
 # <img src="https://emojis.slackmojis.com/emojis/images/1680554188/65018/cat-roomba-exceptionally-fast.gif?1680554188" width="30"/> Olá! Eu sou o Luan <img src="https://media.tenor.com/J6xeNjc2CfMAAAAi/duck-dancing-transparent-duck.gif" width="60"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=false&vCenter=true&random=false&width=435&lines=Fullstack+Developer;Backend+Specialist;Frontend+Explorer;Solution+Architect)](https://github.com/)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=false&vCenter=true&random=false&width=435&lines=Desenvolvedor+Backend)](https://github.com/)
 
 <p align="left">
  👨‍💻 Desenvolvedor backend apaixonado
