@@ -96,10 +96,10 @@ const luan = {
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Projetos Destacados
 
 <a href="https://github.com/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-name-1&theme=tokyonight" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lbss9&repo=project-name-1&theme=tokyonight" />
 </a>
 <a href="https://github.com/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project-name-2&theme=tokyonight" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=lbss9&repo=project-name-2&theme=tokyonight" />
 </a>
 
 ## <img src="https://media.giphy.com/media/uhWLu2lsU0rfLiwYlI/giphy.gif" width="30"> Sobre Mim
@@ -119,11 +119,11 @@ const luan = {
   <summary><b>🔥 Minhas Estatísticas</b></summary>
   <br>
   <p align="center">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&langs_count=7&theme=tokyonight"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lbss9&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lbss9&layout=compact&langs_count=7&theme=tokyonight"/>
   </p>
   <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight" alt="yourusername" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=lbss9&theme=tokyonight" alt="lbss9" />
   </p>
 </details>
 
@@ -155,7 +155,7 @@ const luan = {
 </p>
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/yourusername/count.svg" alt="Visitor Count">
+  <img src="https://profile-counter.glitch.me/lbss9/count.svg" alt="Visitor Count">
 </div>
 
 ---
