@@ -1,9 +1,9 @@
 # <img src="https://emojis.slackmojis.com/emojis/images/1680554188/65018/cat-roomba-exceptionally-fast.gif?1680554188" width="30"/> Olá! Eu sou o Luan <img src="https://media.tenor.com/J6xeNjc2CfMAAAAi/duck-dancing-transparent-duck.gif" width="60"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=false&vCenter=true&random=false&width=435&lines=Desenvolvedor+Backend)](https://github.com/lbss9)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=false&vCenter=true&random=false&width=435&lines=Desenvolvedor+Backend;Estudando+.NET+%26+C%23;Node.js+%7C+TypeScript+%7C+C%23)](https://github.com/lbss9)
 
 <div align="left">
-  <p>👨‍💻 Desenvolvedor backend apaixonado por criar soluções escaláveis</p>
+  <p>👨‍💻 Desenvolvedor backend apaixonado por criar soluções escaláveis</b></p>
   <img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 
@@ -16,6 +16,8 @@
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24"> Tecnologias & Ferramentas
 
 <p align="left">
+  <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img alt="Node.js" src="https://img.shields.io/badge/-Nodejs-43853d?style=for-the-badge&logo=Node.js&logoColor=white">
@@ -53,24 +55,31 @@
 <br clear="right"/>
 
 ## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Habilidades & Métricas
-```typescript
-const luan = {
-  code: ["JavaScript", "TypeScript", "SQL", "HTML", "CSS"],
-  technologies: {
-    frontend: {
-      js: ["React.js", "Next.js", "TailwindCSS", "Styled-Components"],
-      mobile: ["React Native"]
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=lbss9&theme=github-dark-blue&hide_border=true&background=00000000&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&locale=pt_BR" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lbss9&theme=github-compact&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=ffffff&area=true&area_color=1f6feb&custom_title=Atividade%20de%20Contribui%C3%A7%C3%B5es" alt="Activity Graph" />
+</div>
+
+```csharp
+var luan = new Developer
+{
+    Code = new[] { "C#", "TypeScript", "JavaScript", "SQL", "HTML", "CSS" },
+    Technologies = new
+    {
+        Backend   = new[] { ".NET", "ASP.NET Core", "Node.js", "NestJS", "Express", "Fastify" },
+        Frontend  = new[] { "React.js", "Next.js", "TailwindCSS", "Styled-Components" },
+        Mobile    = new[] { "React Native" },
+        Databases = new[] { "PostgreSQL", "SQL Server", "MongoDB", "MySQL", "Redis", "ElasticSearch" },
+        DevOps    = new[] { "AWS", "Docker", "Nginx", "CI/CD", "GitHub Actions" },
+        Tools     = new[] { "Postman", "Insomnia", "Git", "Jira", "Figma" }
     },
-    backend: {
-      js: ["Node.js", "Express", "NestJS", "Fastify"]
-    },
-    databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "ElasticSearch"],
-    devOps: ["AWS", "Docker", "Nginx", "CI/CD", "GitHub Actions"],
-    tools: ["Postman", "Insomnia", "Git", "Jira", "Figma"]
-  },
-  architecture: ["Microservices", "Event-Driven", "RESTful APIs", "MVC", "JAMstack"],
-  currentFocus: "Aperfeiçoando minhas habilidades fullstack com Next.js e React Native",
-  funFact: "Código é como poesia – quanto mais simples, mais bonito"
+    Architecture = new[] { "Clean Architecture", "Microservices", "Event-Driven", "RESTful APIs", "MVC" },
+    CurrentFocus = "Aprofundando em .NET e C# — Clean Architecture, EF Core e ASP.NET Core",
+    FunFact      = "Código é como poesia – quanto mais simples, mais bonito"
 };
 ```
 
@@ -79,16 +88,20 @@ const luan = {
 <table align="center">
   <tr>
     <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=cs" alt="C#" width="65" height="65" />
+      <br>C#
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=dotnet" alt=".NET" width="65" height="65" />
+      <br>.NET / ASP.NET Core
+    </td>
+    <td align="center" width="96">
       <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
       <br>React Avançado
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="65" height="65" />
       <br>Next.js
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" width="65" height="65" />
-      <br>TailwindCSS
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=react" alt="React Native" width="65" height="65" />
@@ -104,6 +117,11 @@ const luan = {
 <td width="33%" valign="top">
 
 ### 🚀 Backend
+
+- **APIs .NET**
+  - C# + ASP.NET Core
+  - Clean Architecture
+  - EF Core + JWT
 
 - **Sistema ERP**
   - NestJS + TypeScript
@@ -166,7 +184,7 @@ const luan = {
 
 ## <img src="https://media.giphy.com/media/uhWLu2lsU0rfLiwYlI/giphy.gif" width="30"> Sobre Mim
 
-
+<details open>
   <summary><b>🧩 Minha Filosofia de Desenvolvimento</b></summary>
   <br>
   <p>
@@ -175,6 +193,7 @@ const luan = {
   <p>
     Como desenvolvedor backend, valorizo a capacidade de trabalhar em todo o ciclo de desenvolvimento - desde a estruturação de APIs e bancos de dados até a integração com sistemas complexos. Adoro enfrentar desafios técnicos e encontrar soluções elegantes que equilibrem performance, segurança e manutenibilidade.
   </p>
+</details>
 
 
 ## <img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="40"> Conecte-se Comigo
