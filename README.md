@@ -27,8 +27,9 @@ Backend em **C#/.NET** para compra e entrega de gift cards digitais.
 - Validators, testes de integração e OpenAPI
 - Deploy gratuito com Render + Neon
 
-🔗 [Frontend online](https://lbss9.github.io/VirtualGameCardFrontend/)<br>
-🎨 [Frontend repo](https://github.com/lbss9/VirtualGameCardFrontend)
+🔗 [Frontend Online](https://lbss9.github.io/VirtualGameCardFrontend/)<br>
+🧠 [Backend Repo](https://github.com/lbss9/VirtualGameCard)<br>
+🎨 [Frontend Repo](https://github.com/lbss9/VirtualGameCardFrontend)
 
 </td>
 <td width="50%" valign="top">
