@@ -79,6 +79,66 @@ Nem tudo pode ficar público, mas bastante coisa aparece na minha atividade por 
 </tr>
 </table>
 
+## 🖥️ Apps desktop
+
+O outro lado da minha stack **.NET/C#**: aplicativos **nativos para Windows** (WinUI 3 / .NET 8) — e, no OctoWatch, um **núcleo em Rust** compartilhado entre plataformas.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📡 [Lumenhop](https://github.com/lbss9/lumenhop)
+
+Monitor de ping silencioso para Windows — um flyout acrílico no canto que mostra, num relance, se o que importa está no ar.
+
+- **WinUI 3 + .NET 8**, self-contained (sem runtime pra instalar)
+- Ping ICMP contínuo por alvo, com cores de latência
+- Bandeja do sistema e auto-atualização (Velopack)
+- pt-BR e inglês · Windows 10/11
+
+[![release](https://img.shields.io/github/v/release/lbss9/lumenhop?style=flat-square&color=2EE6C7&label=release)](https://github.com/lbss9/lumenhop/releases/latest)
+
+</td>
+<td width="50%" valign="top">
+
+### 📺 [Beamcast](https://github.com/lbss9/Beamcast)
+
+Salas de compartilhamento de tela **self-hosted** e **cifradas de ponta a ponta**. Projeto de estudo sobre captura, codecs e transmissão em tempo real.
+
+- **WinUI 3 + .NET 8**; host em **ASP.NET Core** (Docker)
+- Captura na GPU, H.264/HEVC por hardware, áudio por processo
+- E2E com AES-256-GCM — o host nunca vê o conteúdo
+- Reconexão automática · presets até 2160p/120fps
+
+[![release](https://img.shields.io/github/v/release/lbss9/Beamcast?style=flat-square&color=FF4D6D&label=release)](https://github.com/lbss9/Beamcast/releases/latest)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🐙 [OctoWatch](https://github.com/lbss9/OctoWatch)
+
+Monitor de repositórios do GitHub (Actions, PRs, branches, commits) com apps desktop nativos por SO compartilhando um **núcleo em Rust** via UniFFI.
+
+- **Núcleo Rust** (octocrab + tokio + uniffi)
+- Apps nativos: Windows (WinUI 3), macOS (SwiftUI), Linux (GTK4)
+- Bindings C#/Swift gerados a partir do núcleo
+- 🔒 Em desenvolvimento (repositório privado)
+
+</td>
+<td width="50%" valign="top">
+
+### 🧪 A ponte C# ↔ Rust
+
+É aqui que levo **.NET/C#** para o desktop nativo — WinUI 3, Media Foundation, DPAPI, bandeja e toasts do Windows — e, no OctoWatch, exercito **FFI com Rust** para compartilhar um único núcleo entre Windows, macOS e Linux.
+
+Motivação: performance, tipagem forte e entender a plataforma de ponta a ponta.
+
+</td>
+</tr>
+</table>
+
 ## 🧰 Stack principal
 
 ### Backend
