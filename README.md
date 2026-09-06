@@ -103,7 +103,7 @@ Feed de Actions, PRs, branches e commits dos seus repositórios, direto do deskt
 
 ### 🎮 [VirtualGameCard](https://github.com/lbss9/VirtualGameCard)
 
-Backend em C#/.NET para compra e entrega de gift cards digitais, com um microserviço de pagamento separado.
+Backend em C#/.NET 10 para compra e entrega de gift cards digitais, com um microserviço de pagamento separado.
 
 - ASP.NET Core, PostgreSQL, EF Core, OpenAPI
 - JWT com refresh token rotativo em cookie `HttpOnly`
@@ -130,10 +130,10 @@ Chat em tempo real full stack: autenticação completa, conversas diretas e grup
 
 ### 🍔 Zap Food · 🪽 Angelus
 
-Dois ecossistemas menores que uso pra exercitar arquitetura.
+Dois ecossistemas que uso pra exercitar arquitetura: um de delivery, outro de jogo.
 
-- [Zap Food](https://github.com/lbss9/zap-food-restaurant-management-backend): gestão de restaurantes em Node/TS, com [webhook Stripe](https://github.com/lbss9/zap-food-stripe-payment-webhook-intent) separado e [frontend](https://github.com/lbss9/zap-food-restaurant-management-front)
-- [Angelus](https://github.com/lbss9/angelus-backend): API em ASP.NET Core organizada por features, com [frontend em TypeScript](https://github.com/lbss9/AngelusFrontend)
+- [Zap Food](https://github.com/lbss9/zap-food-restaurant-management-backend): admin de delivery em NestJS + MongoDB + RabbitMQ + Redis, com [webhook Stripe](https://github.com/lbss9/zap-food-stripe-payment-webhook-intent) separado e [dashboard em React](https://github.com/lbss9/zap-food-restaurant-management-front)
+- [Angelus](https://github.com/lbss9/angelus-backend): backend de um MMORPG web 3D em .NET 10 com Clean Architecture, CQRS e SignalR, mais o [cliente em React](https://github.com/lbss9/AngelusFrontend)
 
 </td>
 </tr>
