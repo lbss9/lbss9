@@ -145,7 +145,7 @@ Também tem bastante coisa privada: ERPs, automações, bots de Discord e Minecr
 
 <p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,ts,nestjs,fastify,express,cs,dotnet,rust,tauri,react,nextjs,postgres,mongodb,redis,docker,githubactions,aws,nginx,linux,windows&perline=10" alt="stack" />
+    <img src="https://skillicons.dev/icons?i=nodejs,ts,nestjs,express,cs,dotnet,rust,tauri,react,nextjs,postgres,mongodb,redis,docker,githubactions,aws,nginx,linux,windows&perline=10" alt="stack" />
   </a>
 </p>
 
