@@ -45,11 +45,13 @@ Motor HTTP em **Rust** (reqwest + rustls), casca em **Tauri 2**, interface em **
 - Scripts pré e pós-envio num sandbox isolado (Web Worker) com API própria `pc.*` e testes no painel de resposta
 - Importa Collection v2.1 e OpenAPI/Swagger, exporta de volta
 - Motor de temas em JSON com hot reload, janela sem decoração, menus de contexto próprios, en + pt-BR
+- Instalador Windows assinado com auto-update via GitHub Releases
 
 ![Tauri](https://img.shields.io/badge/Tauri_2-24C8D8?style=flat-square&logo=tauri&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[![release](https://img.shields.io/github/v/release/lbss9/postcat?style=flat-square&color=F0713F&label=release)](https://github.com/lbss9/postcat/releases/latest)
 [![last commit](https://img.shields.io/github/last-commit/lbss9/postcat?style=flat-square&color=F0713F&label=last%20commit)](https://github.com/lbss9/postcat/commits/main)
 
 </td>
