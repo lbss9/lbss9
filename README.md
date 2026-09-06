@@ -164,7 +164,7 @@ Também tem bastante coisa privada: ERPs, automações, bots de Discord e Minecr
 ## Onde me achar
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luan-barbosa-a02015190/)
-[![Email](https://img.shields.io/badge/lluanb.s%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lluanb.s@gmail.com)
+[![Email](https://img.shields.io/badge/luan.barbosa.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luan.barbosa.dev@gmail.com)
 
 <br/>
 
