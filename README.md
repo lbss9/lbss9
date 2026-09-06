@@ -1,99 +1,69 @@
-# <img src="https://emojis.slackmojis.com/emojis/images/1680554188/65018/cat-roomba-exceptionally-fast.gif?1680554188" width="30"/> Olá! Eu sou o Luan <img src="https://media.tenor.com/J6xeNjc2CfMAAAAi/duck-dancing-transparent-duck.gif" width="55"/>
+<h1>
+  <img src="https://emojis.slackmojis.com/emojis/images/1680554188/65018/cat-roomba-exceptionally-fast.gif?1680554188" width="30"/>
+  Olá, eu sou o Luan
+  <img src="https://media.tenor.com/J6xeNjc2CfMAAAAi/duck-dancing-transparent-duck.gif" width="55"/>
+</h1>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=false&vCenter=true&random=false&width=620&lines=Desenvolvedor+Backend+Node.js+%7C+TypeScript;Estudando+e+construindo+com+.NET+%26+C%23;APIs+seguras+%E2%80%A2+PostgreSQL+%E2%80%A2+Docker+%E2%80%A2+Arquitetura)](https://github.com/lbss9)
+[![typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=F0713F&vCenter=true&width=640&lines=backend+em+Node.js+%2F+TypeScript+%2F+NestJS;desktop+nativo+em+C%23+%2F+.NET+8+%2F+WinUI+3;e+um+n%C3%BAcleo+em+Rust+quando+precisa+ser+r%C3%A1pido)](https://github.com/lbss9)
 
-<img align="right" src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" width="300"/>
+Desenvolvedor backend. Passo a maior parte do tempo em **Node.js e TypeScript** (NestJS, Fastify, filas, Postgres),
+e a outra parte construindo **apps nativos para Windows em C#/.NET** e um pouco de **Rust** onde a performance manda.
 
-Sou desenvolvedor backend com foco principal em **Node.js, TypeScript, NestJS, APIs REST, filas e bancos de dados**.<br>
-Também venho aprofundando minha segunda stack em **.NET/C#**, com projetos usando **ASP.NET Core, EF Core, JWT, PostgreSQL, Clean Architecture e testes**.
+Gosto de regra de negócio bagunçada virando sistema claro. De janela sem borda com acrílico. De ver o deploy passar
+na primeira. Café do lado é opcional, mas recomendado.
 
-Gosto de transformar regra de negócio bagunçada em sistemas claros, seguros e fáceis de evoluir — de preferência com um café do lado e um deploy que não me odeie. ☕
+```console
+luan@lbss9:~$ neofetch
 
-<br clear="right"/>
+        ▄▄▄▄▄▄▄▄▄▄▄▄        luan@lbss9
+      ▄██████████████▄      ------------------------------------
+     ████  ██████  ████     OS         Windows 11
+     ████  ██████  ████     Shell      pwsh · bash
+     ██████████████████     Editor     VS Code
+      ▀██████████████▀      Backend    Node.js · TypeScript · NestJS · Fastify
+        ██  ▀▀▀▀  ██        Desktop    C# · .NET 8 · WinUI 3 · Windows App SDK
+        ██        ██        Systems    Rust · Tauri · UniFFI
+       ▄██▄      ▄██▄       Data       PostgreSQL · SQLite · MongoDB · Redis
+                            Infra      Docker · GitHub Actions · AWS · Nginx
+                            Uptime     no GitHub desde 2022
+                            Locale     pt_BR.UTF-8 · en_US
+```
 
-## 🚀 Projetos em destaque
+## O que estou construindo
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
-### 🎮 [VirtualGameCard](https://github.com/lbss9/VirtualGameCard)
+### 🐈 [PostCat](https://github.com/lbss9/postcat)
 
-Backend em **C#/.NET** para compra e entrega de gift cards digitais.
+Cliente de API para desktop, **leve e local-first**: sem conta, sem nuvem, coleções e histórico ficam na sua máquina.
+Motor HTTP em **Rust** (reqwest + rustls), casca em **Tauri 2**, interface em **React + TypeScript**.
 
-- ASP.NET Core, PostgreSQL e EF Core
-- JWT + refresh token rotativo em cookie `HttpOnly`
-- Compra idempotente, webhook HMAC e transações
-- Validators, testes de integração e OpenAPI
-- Deploy gratuito com Render + Neon
+- Construtor completo: query e path params, headers, form-data, urlencoded, raw (JSON/JS/HTML/XML) e binário
+- Coleções, pastas, ambientes com `{{variáveis}}` viradas em chips clicáveis
+- Scripts pré e pós-envio num sandbox isolado (Web Worker) com API própria `pc.*` e testes no painel de resposta
+- Importa Collection v2.1 e OpenAPI/Swagger, exporta de volta
+- Motor de temas em JSON com hot reload, janela sem decoração, menus de contexto próprios, en + pt-BR
 
-🔗 [Frontend Online](https://lbss9.github.io/VirtualGameCardFrontend/)<br>
-🧠 [Backend Repo](https://github.com/lbss9/VirtualGameCard)<br>
-🎨 [Frontend Repo](https://github.com/lbss9/VirtualGameCardFrontend)
-
-</td>
-<td width="50%" valign="top">
-
-### 🪽 [Angelus Backend](https://github.com/lbss9/angelus-backend)
-
-Projeto backend em **C#/.NET**, criado para praticar arquitetura, domínio e API com uma stack mais próxima do mercado .NET.
-
-- C# e ASP.NET Core
-- Organização por camadas/features
-- Integração com frontend TypeScript
-- Evolução contínua da stack .NET
-
-🎨 [Angelus Frontend](https://github.com/lbss9/AngelusFrontend)
+![Tauri](https://img.shields.io/badge/Tauri_2-24C8D8?style=flat-square&logo=tauri&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+[![last commit](https://img.shields.io/github/last-commit/lbss9/postcat?style=flat-square&color=F0713F&label=last%20commit)](https://github.com/lbss9/postcat/commits/main)
 
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🍔 [Zap Food Backend](https://github.com/lbss9/zap-food-restaurant-management-backend)
-
-Backend em **Node.js/TypeScript** para gestão de restaurantes.
-
-- APIs REST com TypeScript
-- Modelagem de domínio e persistência
-- Integrações entre serviços do ecossistema Zap Food
-
-💳 [Stripe webhook service](https://github.com/lbss9/zap-food-stripe-payment-webhook-intent)<br>
-🖥️ [Frontend](https://github.com/lbss9/zap-food-restaurant-management-front)
-
-</td>
-<td width="50%" valign="top">
-
-### 🛠️ Projetos Node.js privados
-
-Também trabalho em projetos privados envolvendo:
-
-- ERPs e automações backend
-- Bots Discord/Minecraft
-- APIs com NestJS, Express e Fastify
-- Filas, workers, webhooks e integrações externas
-
-Nem tudo pode ficar público, mas bastante coisa aparece na minha atividade por aqui. 🐾
-
-</td>
-</tr>
-</table>
-
-## 🖥️ Apps desktop
-
-O outro lado da minha stack **.NET/C#**: aplicativos **nativos para Windows** (WinUI 3 / .NET 8) — e, no OctoWatch, um **núcleo em Rust** compartilhado entre plataformas.
-
-<table>
 <tr>
 <td width="50%" valign="top">
 
 ### 📡 [Lumenhop](https://github.com/lbss9/lumenhop)
 
-Monitor de ping silencioso para Windows — um flyout acrílico no canto que mostra, num relance, se o que importa está no ar.
+Monitor de ping silencioso para Windows. Um flyout acrílico no canto da tela mostra, num relance, se o que importa está no ar.
 
-- **WinUI 3 + .NET 8**, self-contained (sem runtime pra instalar)
-- Ping ICMP contínuo por alvo, com cores de latência
-- Bandeja do sistema e auto-atualização (Velopack)
+- WinUI 3 + .NET 8, self-contained
+- ICMP contínuo por alvo, cores por latência
+- Bandeja do sistema, auto-update via Velopack
 - pt-BR e inglês · Windows 10/11
 
 [![release](https://img.shields.io/github/v/release/lbss9/lumenhop?style=flat-square&color=2EE6C7&label=release)](https://github.com/lbss9/lumenhop/releases/latest)
@@ -103,12 +73,12 @@ Monitor de ping silencioso para Windows — um flyout acrílico no canto que mos
 
 ### 📺 [Beamcast](https://github.com/lbss9/Beamcast)
 
-Salas de compartilhamento de tela **self-hosted** e **cifradas de ponta a ponta**. Projeto de estudo sobre captura, codecs e transmissão em tempo real.
+Salas de compartilhamento de tela self-hosted e cifradas de ponta a ponta. Projeto de estudo sobre captura, codecs e transmissão em tempo real.
 
-- **WinUI 3 + .NET 8**; host em **ASP.NET Core** (Docker)
+- WinUI 3 + .NET 8; host em ASP.NET Core (Docker)
 - Captura na GPU, H.264/HEVC por hardware, áudio por processo
-- E2E com AES-256-GCM — o host nunca vê o conteúdo
-- Reconexão automática · presets até 2160p/120fps
+- AES-256-GCM: o host nunca vê o conteúdo
+- Presets até 2160p/120fps, reconexão automática
 
 [![release](https://img.shields.io/github/v/release/lbss9/Beamcast?style=flat-square&color=FF4D6D&label=release)](https://github.com/lbss9/Beamcast/releases/latest)
 
@@ -119,132 +89,84 @@ Salas de compartilhamento de tela **self-hosted** e **cifradas de ponta a ponta*
 
 ### 🐙 [OctoWatch](https://github.com/lbss9/OctoWatch)
 
-Monitor de repositórios do GitHub (Actions, PRs, branches, commits) com apps desktop nativos por SO compartilhando um **núcleo em Rust** via UniFFI.
+Feed de Actions, PRs, branches e commits dos seus repositórios, direto do desktop. Um único núcleo em Rust, uma interface nativa por sistema.
 
-- **Núcleo Rust** (octocrab + tokio + uniffi)
-- Apps nativos: Windows (WinUI 3), macOS (SwiftUI), Linux (GTK4)
-- Bindings C#/Swift gerados a partir do núcleo
-- 🔒 Em desenvolvimento (repositório privado)
+- Núcleo Rust (octocrab + tokio) com cache ETag
+- Windows em WinUI 3, macOS em SwiftUI (menu bar), Linux em GTK4 planejado
+- Bindings C# e Swift gerados via UniFFI
+- Review e merge de PR sem abrir o navegador
+
+![status](https://img.shields.io/badge/status-em%20desenvolvimento-F5A623?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
-### 🧪 A ponte C# ↔ Rust
+### 🎮 [VirtualGameCard](https://github.com/lbss9/VirtualGameCard)
 
-É aqui que levo **.NET/C#** para o desktop nativo — WinUI 3, Media Foundation, DPAPI, bandeja e toasts do Windows — e, no OctoWatch, exercito **FFI com Rust** para compartilhar um único núcleo entre Windows, macOS e Linux.
+Backend em C#/.NET para compra e entrega de gift cards digitais, com um microserviço de pagamento separado.
 
-Motivação: performance, tipagem forte e entender a plataforma de ponta a ponta.
+- ASP.NET Core, PostgreSQL, EF Core, OpenAPI
+- JWT com refresh token rotativo em cookie `HttpOnly`
+- Compra idempotente, webhook com HMAC, transações
+- Pagamentos em AWS Lambda + SQS, deploy em Render + Neon
+
+[demo](https://lbss9.github.io/VirtualGameCardFrontend/) · [frontend](https://github.com/lbss9/VirtualGameCardFrontend) · [payment service](https://github.com/lbss9/VirtualGameCardPaymentService)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💬 [ChatIn](https://github.com/lbss9/ChatIn)
+
+Chat em tempo real full stack: autenticação completa, conversas diretas e grupos, perfil editável com badges e marcações.
+
+- NestJS + MongoDB Atlas + Socket.IO
+- Next.js estático no GitHub Pages, API no Render
+- Refresh token, recuperação de senha, upload de assets
+
+</td>
+<td width="50%" valign="top">
+
+### 🍔 Zap Food · 🪽 Angelus
+
+Dois ecossistemas menores que uso pra exercitar arquitetura.
+
+- [Zap Food](https://github.com/lbss9/zap-food-restaurant-management-backend): gestão de restaurantes em Node/TS, com [webhook Stripe](https://github.com/lbss9/zap-food-stripe-payment-webhook-intent) separado e [frontend](https://github.com/lbss9/zap-food-restaurant-management-front)
+- [Angelus](https://github.com/lbss9/angelus-backend): API em ASP.NET Core organizada por features, com [frontend em TypeScript](https://github.com/lbss9/AngelusFrontend)
 
 </td>
 </tr>
 </table>
 
-## 🧰 Stack principal
+Também tem bastante coisa privada: ERPs, automações, bots de Discord e Minecraft, APIs com filas e workers. Nem tudo pode ser público, mas aparece na atividade.
 
-### Backend
-
-<p>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853d?style=for-the-badge&logo=Node.js&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white">
-  <img alt="Express.js" src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white">
-  <img alt="Fastify" src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white">
-  <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white">
-  <img alt=".NET" src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
-</p>
-
-### Banco, infra e ferramentas
+## Ferramentas
 
 <p>
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white">
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-D9281A?style=for-the-badge&logo=redis&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-46a2f1?style=for-the-badge&logo=docker&logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white">
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-  <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
-</p>
-
-### Frontend quando preciso atravessar a ponte
-
-<p>
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
-  <img alt="React Native" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-</p>
-
-## 🧠 Atualmente estudando
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=nestjs" alt="NestJS" width="60" height="60" />
-      <br>NestJS
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=cs" alt="C#" width="60" height="60" />
-      <br>C#
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=dotnet" alt=".NET" width="60" height="60" />
-      <br>ASP.NET Core
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" width="60" height="60" />
-      <br>PostgreSQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="60" height="60" />
-      <br>Docker
-    </td>
-  </tr>
-</table>
-
-```ts
-const luan = {
-  mainStack: ["Node.js", "TypeScript", "NestJS", "PostgreSQL"],
-  secondaryStack: [".NET", "C#", "ASP.NET Core", "EF Core"],
-  likes: ["APIs bem desenhadas", "auth segura", "arquitetura limpa", "deploy funcionando"],
-  currentFocus: "Aprofundar backend Node.js e consolidar .NET/C# com projetos reais",
-};
-```
-
-## 📊 Métricas
-
-<details>
-  <summary><b>Ver atividade no GitHub</b></summary>
-  <br>
-
-  <div align="center">
-    <img src="https://streak-stats.demolab.com?user=lbss9&theme=github-dark-blue&hide_border=true&background=00000000&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&locale=pt_BR" alt="GitHub Streak" />
-  </div>
-
-  <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=lbss9&theme=github-compact&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=ffffff&area=true&area_color=1f6feb&custom_title=Atividade%20de%20Contribui%C3%A7%C3%B5es" alt="Activity Graph" />
-  </div>
-</details>
-
-## 🧩 Sobre mim
-
-Acredito que backend bom é aquele que parece simples por fora, mas foi pensado com cuidado por dentro: contratos claros, validação forte, segurança, logs úteis, banco bem modelado e código que outro dev consegue continuar sem sofrer.
-
-Meu foco principal é **Node.js/TypeScript**, mas gosto de aprender profundamente outras stacks para ampliar repertório. Hoje, **.NET/C#** virou minha segunda trilha séria — especialmente por arquitetura, tipagem, performance e ecossistema backend.
-
-## 📫 Conecte-se comigo
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/luan-barbosa-a02015190/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:lluanb.s@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://github.com/lbss9">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs,ts,nestjs,fastify,express,cs,dotnet,rust,tauri,react,nextjs,postgres,mongodb,redis,docker,githubactions,aws,nginx,linux,windows&perline=10" alt="stack" />
   </a>
 </p>
 
----
+## Atividade
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lbss9/lbss9/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lbss9/lbss9/output/github-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/lbss9/lbss9/output/github-snake.svg" />
+</picture>
+
+<a href="https://github.com/lbss9">
+  <img src="https://streak-stats.demolab.com?user=lbss9&theme=dark&hide_border=true&background=00000000&ring=F0713F&fire=F0713F&currStreakLabel=F0713F&locale=pt_BR&date_format=j%20M%5B%20Y%5D" alt="streak" />
+</a>
+
+## Onde me achar
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luan-barbosa-a02015190/)
+[![Email](https://img.shields.io/badge/lluanb.s%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lluanb.s@gmail.com)
+
+<br/>
 
 <p align="center">
   <img src="https://i.giphy.com/ln7z2eWriiQAllfVcn.webp" width="90">
@@ -252,12 +174,7 @@ Meu foco principal é **Node.js/TypeScript**, mas gosto de aprender profundament
 </p>
 
 <p align="center">
-  <i>"The only way to learn a new programming language is by writing programs in it."</i><br>
-  - Dennis Ritchie
+  <sub><i>"The only way to learn a new programming language is by writing programs in it."</i> — Dennis Ritchie</sub>
+  <br/><br/>
+  <img src="https://komarev.com/ghpvc/?username=lbss9&color=F0713F&style=flat-square&label=visitas" alt="visitas" />
 </p>
-
-<div align="center">
-  
-  ![](https://komarev.com/ghpvc/?username=lbss9&color=58A6FF&style=flat-square&label=Visualizações+do+Perfil)
-  
-</div>
