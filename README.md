@@ -117,7 +117,7 @@ Backend em C#/.NET 10 para compra e entrega de gift cards digitais, com um micro
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
 ### 💬 [ChatIn](https://github.com/lbss9/ChatIn)
 
@@ -126,16 +126,6 @@ Chat em tempo real full stack: autenticação completa, conversas diretas e grup
 - NestJS + MongoDB Atlas + Socket.IO
 - Next.js estático no GitHub Pages, API no Render
 - Refresh token, recuperação de senha, upload de assets
-
-</td>
-<td width="50%" valign="top">
-
-### 🍔 Zap Food · 🪽 Angelus
-
-Dois ecossistemas que uso pra exercitar arquitetura: um de delivery, outro de jogo.
-
-- [Zap Food](https://github.com/lbss9/zap-food-restaurant-management-backend): admin de delivery em NestJS + MongoDB + RabbitMQ + Redis, com [webhook Stripe](https://github.com/lbss9/zap-food-stripe-payment-webhook-intent) separado e [dashboard em React](https://github.com/lbss9/zap-food-restaurant-management-front)
-- [Angelus](https://github.com/lbss9/angelus-backend): backend de um MMORPG web 3D em .NET 10 com Clean Architecture, CQRS e SignalR, mais o [cliente em React](https://github.com/lbss9/AngelusFrontend)
 
 </td>
 </tr>
