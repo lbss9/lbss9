@@ -131,8 +131,6 @@ Chat em tempo real full stack: autenticação completa, conversas diretas e grup
 </tr>
 </table>
 
-Também tem bastante coisa privada: ERPs, automações, bots de Discord e Minecraft, APIs com filas e workers. Nem tudo pode ser público, mas aparece na atividade.
-
 ## Ferramentas
 
 <p>
